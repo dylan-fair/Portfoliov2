@@ -1,0 +1,56 @@
+:root {
+    --blue: rgb(51, 153, 255)
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 40px;
+    color: var(--blue);
+    font-size: 25px;
+    text-decoration: none;
+    border: 3px solid var(--blue);
+    border-radius: 15%;
+    padding: 1.2rem;
+    font-family: sans-serif;
+    transition: .5s;
+}
+header a:hover {
+    background-color: var(--blue);
+    color: white;
+}
+header img {
+    margin-left: 20px;
+    transition: .5s;
+}
+header img:hover {
+    transform: scale(1.2);
+}
+div {
+    margin-top: 20px;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+div h1 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div h3 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
