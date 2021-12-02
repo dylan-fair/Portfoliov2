@@ -41,11 +41,13 @@ header img:hover {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 0.5s;
+    text-align: center;
 }
 .hero h1:hover {
     font-size: 45px;
 }
 .hero h3 {
+    text-align: center;
     font-size: 25px;
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,6 +63,7 @@ header img:hover {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
+    text-align: center;
 
 }
 .about-me p {
@@ -83,7 +86,7 @@ header img:hover {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .project {
@@ -92,6 +95,7 @@ header img:hover {
     position: relative;
     color: white;
     background-color: black;
+    margin-bottom: 20px;
 }
 .project img {
     height: 230px;
@@ -105,4 +109,24 @@ header img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 100%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue);
+}
+footer h2 {
+    padding-top: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+footer h3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+footer p {
+    color: white;
 }
