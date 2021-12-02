@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 40px;
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+    border: 3px solid blue;
+    border-radius: 15%;
+    padding: 1.2rem;
+    font-family: sans-serif;
+}
+header a:hover {
+    background-color: blue;
+    color: white;
+}
+header img {
+    margin-left: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero h3 {
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+}
+.about-me h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+
+}
+.about-me p {
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+}
