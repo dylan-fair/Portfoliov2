@@ -52,6 +52,9 @@ header img:hover {
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.hero img {
+    width: 100%;
+}
 .about-me {
     display: flex;
     flex-direction: column;
@@ -86,7 +89,7 @@ header img:hover {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .project {
