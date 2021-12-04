@@ -109,6 +109,10 @@ header img:hover {
     margin-bottom: 20px;
     border-radius: 20px;
 }
+.project a {
+    text-decoration: none;
+    color: white;
+}
 .project img {
     height: 230px;
     width: 300px;
